@@ -1,0 +1,9 @@
+<shape android:height="200dp"
+    android:tint="@color/white"
+    android:viewportHeight="24" android:viewportWidth="24"
+    android:width="200dp" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:visible="true"
+    >
+    <corners android:radius="30dp"/>
+</shape>

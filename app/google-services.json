@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "628306042116",
+    "firebase_url": "https://apia-32133-default-rtdb.firebaseio.com",
+    "project_id": "apia-32133",
+    "storage_bucket": "apia-32133.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628306042116:android:5df15a39012cd20721c451",
+        "android_client_info": {
+          "package_name": "id.ac.unib.fafiquedriving"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628306042116-a5b27g6ueqmtl5v9sqdtm3eeprdudn0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV2AlDh98ItUv-ziVYEb_eDWP_3KAyIFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628306042116-a5b27g6ueqmtl5v9sqdtm3eeprdudn0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

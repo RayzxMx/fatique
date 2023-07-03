@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Driving Fatique</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Pengemudi 1</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="welcome_text">SELAMAT DATANG\nDI SISTEM MONITORING\nPENGEMUDI</string>
+    <string name="btn_lanjut">Lanjut</string>
+    <string name="login">Login</string>
+    <string name="text_login">Login</string>
+    <string name="title_activity_launcher">Launcher</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_nilai_vas">Nilai Vas</string>
+
+    <string name="fa_search">&#xf002;</string>
+    <string name="e_cari_pengemudi">Cari Pengemudi</string>
+
+</resources>
