@@ -36,7 +36,7 @@ public class VasViewModel extends ViewModel {
                         Integer vasValue = childSnapshot.child("nilai_vas").getValue(Integer.class);
                         // Lakukan operasi dengan nilai VAS yang ditemukan
                         // Misalnya, tampilkan nilai VAS menggunakan Snackbar
-                        mText.setValue("Nilai Vas : " + vasValue);
+                        mText.setValue(vasValue.toString());
                     }
                 } else {
                     // Data tidak ditemukan
