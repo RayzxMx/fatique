@@ -1,0 +1,6 @@
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#DC3545" />
+    <corners android:radius="10dp" /> <!-- Ubah nilai radius sesuai dengan keinginan Anda -->
+</shape>
