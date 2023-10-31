@@ -45,43 +45,48 @@ public class login extends AppCompatActivity {
         EditText ePassword = findViewById(R.id.ePassword);
         String username = eUsername.getText().toString();
         String password = ePassword.getText().toString();
-        mDatabase.child("user").orderByChild("id").equalTo(username).addListenerForSingleValueEvent(new ValueEventListener() {
+        mDatabase.child("user")
+                .orderByChild("id")
+                .equalTo(username)
+                .addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-
                 if (dataSnapshot.exists()) {
-                    for (DataSnapshot childSnapshot : dataSnapshot.getChildren()) {
-                        // Akses data yang ditemukan di sini
-                        String _password = childSnapshot.child("password").getValue(String.class);
-                        String role = childSnapshot.child("role").getValue(String.class);
-                        // Lakukan operasi dengan data yang ditemukan
-                        if (password.equals(_password)){
-                            Snackbar.make(view, "Login Success", Snackbar.LENGTH_LONG)
-                                    .setAction("Action", null).show();
-                            // Menyimpan data session login
-                            editor.putString("username", username);
-                            editor.putString("role",role);
-                            editor.putBoolean("isLoggedIn", true);
-                            getName(username, new NameCallback() {
-                                @Override
-                                public void onNameReceived(String name) {
-                                    if (!name.isEmpty()) {
-                                        editor.putString("name", name);
-                                    } else {
-                                        editor.putString("name", username);
-                                    }
-                                    // Menyimpan perubahan
-                                    editor.apply();
-                                    startActivity(intent);
-                                    finish();
-                                }
-                            });
+                    DataSnapshot childSnapshot = dataSnapshot.getChildren().iterator().next();
+                    // Akses data yang ditemukan di sini
+                    String _password = childSnapshot.child("password").getValue(String.class);
+                    String role = childSnapshot.child("role").getValue(String.class);
 
-                        } else {
-                            Snackbar.make(view, "Login Failed, Username or Password is Wrong", Snackbar.LENGTH_LONG)
-                                    .setAction("Action", null).show();
-                            ePassword.setText("");
-                        }
+                    // Lakukan operasi dengan data yang ditemukan
+                    if (password.equals(_password)) {
+                        Snackbar.make(view, "Login Success", Snackbar.LENGTH_LONG)
+                                .setAction("Action", null).show();
+                        // Menyimpan data session login
+                        editor.putString("username", username);
+                        editor.putString("password", password);
+                        editor.putString("role", role);
+                        editor.putBoolean("isLoggedIn", true);
+                        getName(username, new NameCallback() {
+                            @Override
+                            public void onNameReceived(String name, Integer pengemudi_id) {
+                                if (!name.isEmpty()) {
+                                    editor.putString("name", name);
+                                    editor.putInt("pengemudi_id", pengemudi_id);
+                                } else {
+                                    editor.putString("name", username);
+                                    editor.putInt("pengemudi_id",0);
+                                }
+                                // Menyimpan perubahan
+                                editor.apply();
+                                Integer p = sharedPreferences.getInt("pengemudi_id", 0);
+                                startActivity(intent);
+                                finish();
+                            }
+                        });
+                    } else {
+                        Snackbar.make(view, "Login Failed, Username or Password is Wrong", Snackbar.LENGTH_LONG)
+                                .setAction("Action", null).show();
+                        ePassword.setText("");
                     }
                 } else {
                     // Data tidak ditemukan
@@ -90,7 +95,6 @@ public class login extends AppCompatActivity {
                     ePassword.setText("");
                 }
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
                 // Penanganan kesalahan jika terjadi
@@ -98,7 +102,7 @@ public class login extends AppCompatActivity {
         });
     }
     public interface NameCallback {
-        void onNameReceived(String name);
+        void onNameReceived(String name, Integer pengemudi_id);
     }
 
     public void getName(String username, NameCallback callback) {
@@ -108,13 +112,14 @@ public class login extends AppCompatActivity {
                 if (dataSnapshot.exists()) {
                     for (DataSnapshot childSnapshot : dataSnapshot.getChildren()) {
                         String name = childSnapshot.child("nama").getValue(String.class);
+                        Integer pengemudi_id = childSnapshot.child("id").getValue(Integer.class);
                         if (name != null && !name.isEmpty()) {
-                            callback.onNameReceived(name);
+                            callback.onNameReceived(name,pengemudi_id);
                             return; // Menghentikan iterasi setelah nama ditemukan
                         }
                     }
                 }
-                callback.onNameReceived(""); // Mengirimkan string kosong jika nama tidak ditemukan
+                callback.onNameReceived("",0); // Mengirimkan string kosong jika nama tidak ditemukan
             }
 
             @Override

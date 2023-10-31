@@ -1,18 +1,25 @@
 package id.ac.unib.fafiquedriving;
 
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
+import id.ac.unib.fafiquedriving.NotificationHelper;
+
 
 public class MainActivity extends AppCompatActivity {
     private SharedPreferences sharedPreferences;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        //NotificationHelper.showNotification(this, "Judul Notifikasi", "Isi pesan notifikasi");
         sharedPreferences = getSharedPreferences("MyAppPreferences", MODE_PRIVATE);
+
         // Cek apakah ini instalasi pertama atau bukan
         boolean isFirstInstall = sharedPreferences.getBoolean("isFirstInstall", true);
         if (isFirstInstall) {
@@ -38,9 +45,11 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
     public void btn_lanjut_click(View view) {
         Intent intent = new Intent(this, login.class);
         startActivity(intent);
         finish();
     }
+
 }

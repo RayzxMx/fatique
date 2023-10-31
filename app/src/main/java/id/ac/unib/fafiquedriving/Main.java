@@ -8,9 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -18,11 +16,6 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.snackbar.Snackbar;
-
-import org.w3c.dom.Text;
-
-import id.ac.unib.fafiquedriving.R;
 import id.ac.unib.fafiquedriving.databinding.ActivityMainBinding;
 
 public class Main extends AppCompatActivity {
@@ -46,7 +39,7 @@ public class Main extends AppCompatActivity {
 
         // Mendapatkan data session login
         String username = sharedPreferences.getString("username", "null");
-        String _nama = sharedPreferences.getString("name", "nill");
+        String _nama = sharedPreferences.getString("name", "null");
         String role = sharedPreferences.getString("role","null");
         setSupportActionBar(binding.appBarMain.toolbar);
 

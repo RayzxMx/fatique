@@ -12,6 +12,7 @@
             android:title="@string/menu_nilai_vas" />
         <item
             android:id="@+id/nav_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/sambungkan_device" />
+
     </group>
 </menu>

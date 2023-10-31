@@ -9,7 +9,7 @@
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_slideshow">Sambungkan Device</string>
     <string name="welcome_text">SELAMAT DATANG\nDI SISTEM MONITORING\nPENGEMUDI</string>
     <string name="btn_lanjut">Lanjut</string>
     <string name="login">Login</string>
@@ -38,5 +38,19 @@
 
     <string name="fa_search">&#xf002;</string>
     <string name="e_cari_pengemudi">Cari Pengemudi</string>
+    <string name="qrcode">qrcode</string>
+    <string name="sambungkan_device">Sambungkan Device</string>
+    <string name="nilai_vas">Nilai VAS :</string>
+    <string name="_5">5</string>
+    <string name="sangat_tidak_setuju">Sangat Tidak Setuju</string>
+    <string name="tidak_setuju">Tidak Setuju</string>
+    <string name="netral">Netral</string>
+    <string name="setuju">Setuju</string>
+    <string name="sangat_setuju">Sangat Setuju</string>
+    <string name="moderate">Moderate</string>
+    <string name="status_pengemudi">Status Pengemudi:</string>
+    <string name="mulai">Mulai</string>
+    <string name="selesai">Selesai</string>
+    <string name="tidak_mengemudi">Tidak Mengemudi</string>
 
 </resources>
