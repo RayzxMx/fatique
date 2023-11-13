@@ -1,68 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Bobot_1">0.069444444</string>
-    <string name="Bobot_2">0.055555556</string>
-    <string name="Bobot_3">0.013888889</string>
-    <string name="Bobot_4">0.006944444</string>
-    <string name="Bobot_5">0.006944444</string>
-    <string name="Bobot_6">0.006944444</string>
-    <string name="Bobot_7">0.006944444</string>
-    <string name="Bobot_8">0.069444444</string>
-    <string name="Bobot_9">0.055555556</string>
-    <string name="Bobot_10">0.006944444</string>
-    <string name="Bobot_11">0.027777778</string>
-    <string name="Bobot_12">0.020833333</string>
-    <string name="Bobot_13">0.013888889</string>
-    <string name="Bobot_14">0.034722222</string>
-    <string name="Bobot_15">0.020833333</string>
-    <string name="Bobot_16">0.055555556</string>
-    <string name="Bobot_17">0.034722222</string>
-    <string name="Bobot_18">0.006944444</string>
-    <string name="Bobot_19">0,434027778</string>
-    <string name="Bobot_20">0,434027778</string>
-    <string name="Bobot_21">0.006944444</string>
-    <string name="Bobot_22">0.006944444</string>
-    <string name="Bobot_23">0.055555556</string>
-    <string name="Bobot_24">0.041666667</string>
-    <string name="Bobot_25">0.027777778</string>
-    <string name="Bobot_26">0.020833333</string>
-    <string name="Bobot_27">0.006944444</string>
-    <string name="Bobot_28">0,434027778</string>
-    <string name="Bobot_29">0.069444444</string>
-    <string name="Bobot_30">0.041666667</string>
-    <string name="Bobot_31">0.020833333</string>
-    <string name="Bobot_32">0.063157895</string>
-    <string name="Bobot_33">0.073684211</string>
-    <string name="Bobot_34">0.052631579</string>
-    <string name="Bobot_35">0.010526316</string>
-    <string name="Bobot_36">0.042105263</string>
-    <string name="Bobot_37">0.021052632</string>
-    <string name="Bobot_38">0.042105263</string>
-    <string name="Bobot_39">0.073684211</string>
-    <string name="Bobot_40">0.010526316</string>
-    <string name="Bobot_41">0.010526316</string>
-    <string name="Bobot_42">0.042105263</string>
-    <string name="Bobot_43">0.052631579</string>
-    <string name="Bobot_44">0.042105263</string>
-    <string name="Bobot_45">0.094736842</string>
-    <string name="Bobot_46">0.084210526</string>
-    <string name="Bobot_47">0.021052632</string>
-    <string name="Bobot_48">0.063157895</string>
-    <string name="Bobot_49">0.094736842</string>
-    <string name="Bobot_50">0.021052632</string>
-    <string name="Bobot_51">0.084210526</string>
-    <string name="Bobot_52">0.030769231</string>
-    <string name="Bobot_53">0.153846154</string>
-    <string name="Bobot_54">0.123076923</string>
-    <string name="Bobot_55">0.153846154</string>
-    <string name="Bobot_56">0.015384615</string>
-    <string name="Bobot_57">0.076923077</string>
-    <string name="Bobot_58">0.030769231</string>
-    <string name="Bobot_59">0.092307692</string>
-    <string name="Bobot_60">0.092307692</string>
-    <string name="Bobot_61">0.046153846</string>
-    <string name="Bobot_62">0.015384615</string>
-    <string name="Bobot_63">0.046153846</string>
-    <string name="Bobot_64">0.015384615</string>
-    <string name="Bobot_65">0.107692308</string>
+    <array name="bobot">
+        <item>0.048543689</item>
+        <item>0.048543689</item>
+        <item>0.038834951</item>
+        <item>0.038834951</item>
+        <item>0.014563107</item>
+        <item>0.014563107</item>
+        <item>0.033980583</item>
+        <item>0.038834951</item>
+        <item>0.048543689</item>
+        <item>0.048543689</item>
+        <item>0.048543689</item>
+        <item>0.038834951</item>
+        <item>0.024271845</item>
+        <item>0.024271845</item>
+        <item>0.048543689</item>
+        <item>0.038834951</item>
+        <item>0.024271845</item>
+        <item>0.038834951</item>
+        <item>0.038834951</item>
+        <item>0.033980583</item>
+        <item>0.033980583</item>
+        <item>0.038834951</item>
+        <item>0.048543689</item>
+        <item>0.038834951</item>
+        <item>0.024271845</item>
+        <item>0.033980583</item>
+        <item>0.048543689</item>
+        <item>0.1</item>
+        <item>0.1</item>
+        <item>0.1</item>
+        <item>0.1</item>
+        <item>0.1</item>
+        <item>0.1</item>
+        <item>0.1</item>
+        <item>0.1</item>
+        <item>0.1</item>
+        <item>0.1</item>
+        <item>0.103092784</item>
+        <item>0.103092784</item>
+        <item>0.103092784</item>
+        <item>0.103092784</item>
+        <item>0.103092784</item>
+        <item>0.103092784</item>
+        <item>0.103092784</item>
+        <item>0.103092784</item>
+        <item>0.103092784</item>
+        <item>0.072164948</item>
+    </array>
 </resources>

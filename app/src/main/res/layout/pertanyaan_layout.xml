@@ -53,27 +53,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_2"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_2"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_2"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_2"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_2"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -89,27 +89,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_3"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_3"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_3"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_3"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_3"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -125,27 +125,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_4"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_4"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_4"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_4"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_4"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -161,27 +161,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_5"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_5"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_5"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_5"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_5"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -197,27 +197,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_6"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_6"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_6"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_6"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_6"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -233,27 +233,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_7"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_7"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_7"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_7"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_7"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -269,27 +269,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_8"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_8"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_8"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_8"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_8"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -305,27 +305,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_9"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_9"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_9"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_9"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_9"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -341,27 +341,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_10"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_10"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_10"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_10"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_10"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -377,27 +377,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_11"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_11"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_11"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_11"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_11"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -413,27 +413,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_12"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_12"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_12"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_12"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_12"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -449,27 +449,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_13"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_13"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_13"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_13"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_13"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -485,27 +485,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_14"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_14"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_14"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_14"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_14"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -521,27 +521,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_15"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_15"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_15"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_15"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_15"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -557,27 +557,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_16"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_16"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_16"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_16"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_16"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -593,27 +593,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_17"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_17"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_17"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_17"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_17"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -629,27 +629,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_18"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_18"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_18"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_18"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_18"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -665,27 +665,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_19"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_19"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_19"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_19"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_19"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -701,27 +701,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_20"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_20"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_20"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_20"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_20"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -737,27 +737,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_21"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_21"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_21"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_21"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_21"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -773,27 +773,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_22"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_22"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_22"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_22"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_22"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -809,27 +809,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_23"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_23"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_23"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_23"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_23"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -845,27 +845,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_24"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_24"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_24"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_24"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_24"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -881,27 +881,27 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_25"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_25"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_25"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_25"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_25"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>    <TextView
@@ -917,196 +917,43 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/radio_option1_26"
-            android:text="Sangat Tidak Setuju"
+            android:text="@string/sangat_tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option2_26"
-            android:text="Tidak Setuju"
+            android:text="@string/tidak_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option3_26"
-            android:text="Netral"
+            android:text="@string/netral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option4_26"
-            android:text="Setuju"
+            android:text="@string/setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/radio_option5_26"
-            android:text="Sangat Setuju"
+            android:text="@string/sangat_setuju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
-    </RadioGroup>    <TextView
-    android:id="@+id/questionText_27"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textSize="18sp"
-    android:textColor="@color/black"
-    android:text="@string/Pertanyaan_27" />
-    <RadioGroup
-        android:id="@+id/radioGroup_27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <RadioButton
-            android:id="@+id/radio_option1_27"
-            android:text="Sangat Tidak Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option2_27"
-            android:text="Tidak Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option3_27"
-            android:text="Netral"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option4_27"
-            android:text="Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option5_27"
-            android:text="Sangat Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </RadioGroup>    <TextView
-    android:id="@+id/questionText_28"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textSize="18sp"
-    android:textColor="@color/black"
-    android:text="@string/Pertanyaan_28" />
-    <RadioGroup
-        android:id="@+id/radioGroup_28"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <RadioButton
-            android:id="@+id/radio_option1_28"
-            android:text="Sangat Tidak Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option2_28"
-            android:text="Tidak Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option3_28"
-            android:text="Netral"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option4_28"
-            android:text="Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option5_28"
-            android:text="Sangat Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </RadioGroup>    <TextView
-    android:id="@+id/questionText_29"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textSize="18sp"
-    android:textColor="@color/black"
-    android:text="@string/Pertanyaan_29" />
-    <RadioGroup
-        android:id="@+id/radioGroup_29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <RadioButton
-            android:id="@+id/radio_option1_29"
-            android:text="Sangat Tidak Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option2_29"
-            android:text="Tidak Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option3_29"
-            android:text="Netral"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option4_29"
-            android:text="Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option5_29"
-            android:text="Sangat Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </RadioGroup>    <TextView
-    android:id="@+id/questionText_30"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textSize="18sp"
-    android:textColor="@color/black"
-    android:text="@string/Pertanyaan_30" />
-    <RadioGroup
-        android:id="@+id/radioGroup_30"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <RadioButton
-            android:id="@+id/radio_option1_30"
-            android:text="Sangat Tidak Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option2_30"
-            android:text="Tidak Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option3_30"
-            android:text="Netral"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option4_30"
-            android:text="Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radio_option5_30"
-            android:text="Sangat Setuju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </RadioGroup>    <TextView
-    android:id="@+id/questionText_31"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textSize="18sp"
-    android:textColor="@color/black"
-    android:text="@string/Pertanyaan_31" />
-    
-    <LinearLayout
+    </RadioGroup><LinearLayout
     android:orientation="vertical"
     android:layout_gravity="end"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginEnd="20dp"
     android:layout_marginTop="20dp"
-    android:layout_marginBottom="20dp">
-        <Button
-            android:id="@+id/btn_submit"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="Submit"
-            android:textAlignment="center" />
-    </LinearLayout>
+    android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Submit"
+        android:textAlignment="center" />
     <TextView
         android:id="@+id/score_parameter"
         android:layout_width="wrap_content"

@@ -31,6 +31,7 @@ import id.ac.unib.fafiquedriving.R;
 import id.ac.unib.fafiquedriving.databinding.FragmentHomeBinding;
 import id.ac.unib.fafiquedriving.ui.daftarPengemudi.DaftarPengemudiFragment;
 import id.ac.unib.fafiquedriving.ui.gallery.GalleryFragment;
+import id.ac.unib.fafiquedriving.ui.gallery.transisi_fragment;
 import id.ac.unib.fafiquedriving.ui.vas.VasFragment;
 //import id.ac.unib.fafiquedriving.QuestionAdapter;
 
@@ -64,7 +65,7 @@ public class HomeFragment extends Fragment {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
 // Membuat instance dari fragment yang akan ditampilkan
-        Fragment fragment = new GalleryFragment(); // Gantilah TargetFragment dengan fragment yang ingin Anda tampilkan
+        Fragment fragment = new transisi_fragment(); // Gantilah TargetFragment dengan fragment yang ingin Anda tampilkan
 
 // Mengganti fragment yang saat ini ditampilkan dengan fragment yang baru
         fragmentTransaction.replace(R.id.fragment_container, fragment);

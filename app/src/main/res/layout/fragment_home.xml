@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment"
     android:background="@color/warna_base_terang"
-    android:id="@+id/fragment_container">
+    android:id="@+id/fragment_container"
+    >
 
     <TextView
         android:id="@+id/text_home"
