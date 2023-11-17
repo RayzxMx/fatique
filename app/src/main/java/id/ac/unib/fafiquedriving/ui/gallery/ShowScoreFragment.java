@@ -20,18 +20,29 @@ import android.widget.Button;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import org.w3c.dom.Text;
+
 import java.text.DecimalFormat;
 
 import id.ac.unib.fafiquedriving.R;
 import id.ac.unib.fafiquedriving.databinding.FragmentFatigueBinding;
 import id.ac.unib.fafiquedriving.databinding.FragmentShowScoreBinding;
+import id.ac.unib.fafiquedriving.login;
 
 
 public class ShowScoreFragment extends Fragment {
 
     private FragmentShowScoreBinding binding;
     private SharedPreferences sharedPreferences;
-    SharedPreferences.Editor editor;
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference myRef = database.getReference("nama_child_reference");
     public static ShowScoreFragment newInstance() {
         return new ShowScoreFragment();
     }
@@ -45,22 +56,55 @@ public class ShowScoreFragment extends Fragment {
         View root = binding.getRoot();
 
         sharedPreferences = getActivity().getSharedPreferences("scoreData", Context.MODE_PRIVATE);
-        editor = sharedPreferences.edit();
+        boolean AG = false;
+        boolean AL = false;
+        boolean L = false;
 
         String AGs = sharedPreferences.getString("AG", "0.0"); // Mendapatkan string
-        double AG = Double.parseDouble(AGs); // Mengonversi string ke double
+        double AGd = Double.parseDouble(AGs); // Mengonversi string ke double
         String ALs = sharedPreferences.getString("AL", "0.0"); // Mendapatkan string
-        double AL = Double.parseDouble(ALs); // Mengonversi string ke double
+        double ALd = Double.parseDouble(ALs); // Mengonversi string ke double
         String Ls = sharedPreferences.getString("L", "0.0"); // Mendapatkan string
-        double L = Double.parseDouble(Ls); // Mengonversi string ke double
-        TextView scoreTot = binding.showScore;
-        scoreTot.setText("Score AG : "+AG+" \nScore AL : "+AL+" \nScore L : "+L);
+        double Ld = Double.parseDouble(Ls); // Mengonversi string ke double
+        sharedPreferences = getActivity().getSharedPreferences("MyAppPreferences", Context.MODE_PRIVATE);
+        int pengemudiId = sharedPreferences.getInt("pengemudi_id",0);
 
+        TextView scoreTot = binding.showScore;
+        TextView recomText = binding.textRecomendasi;
+        scoreTot.setText("Score AG : "+AGd+" \nScore AL : "+ALd+" \nScore L : "+Ld);
+
+        //forward chaining
+        AG = AGd >= 0.55;
+        AL = ALd >= 0.55;
+        L = Ld >= 0.55;
+
+        if(AG && AL && L){
+            recomText.setText(R.string.AG_AL_L);
+        } else if (AG && AL) {
+            recomText.setText(R.string.AG_AL);
+        } else if (AG && L) {
+            recomText.setText(R.string.AG_L);
+        } else if (AL && L) {
+            recomText.setText(R.string.AL_L);
+        } else if (AG) {
+            recomText.setText(R.string.AG);
+        } else if (AL) {
+            recomText.setText(R.string.AL);
+        } else if (L) {
+            recomText.setText(R.string.L);
+        }
         return root;
     }
     @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
+    }
+
+    public void save_data(int pengemudiId, double AGd, double ALd, double Ld){
+        Boolean AG = AGd >= 0.55;
+        Boolean AL = ALd >= 0.55;
+        Boolean L = Ld >= 0.55;
+
     }
 }

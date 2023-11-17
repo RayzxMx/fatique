@@ -52,5 +52,12 @@
     <string name="mulai">Mulai</string>
     <string name="selesai">Selesai</string>
     <string name="tidak_mengemudi">Tidak Mengemudi</string>
+    <string name="AG_AL_L">Disarankan Untuk Beristirahat</string>
+    <string name="AG_AL">Hati-hati Dalam Mengemudi</string>
+    <string name="AG_L">Harap Beristirahat Terlebih Dahulu</string>
+    <string name="AL_L">Jika Anda Merasa Lelah, Silahkan Beristirahat Terlebih Dahulu</string>
+    <string name="AG">Hati-Hati Dalam Mengemudi, Jangan Terlalu Agresif</string>
+    <string name="AL">Kondisi Anda Normal, Tetap Berhati-hati Dalam Berkendara</string>
+    <string name="L">Disarankan Untuk Beristirahat</string>
 
 </resources>
