@@ -23,6 +23,11 @@
         android:label="@string/menu_nilai_vas"
         tools:layout="@layout/fragment_vas" />
 
+    <fragment
+        android:id="@+id/nav_monitoring"
+        android:name="id.ac.unib.fafiquedriving.ui.monitoring.MonitoringFragment"
+        android:label="@string/monitoring"
+        tools:layout="@layout/fragment_monitoring" />
 
 
 

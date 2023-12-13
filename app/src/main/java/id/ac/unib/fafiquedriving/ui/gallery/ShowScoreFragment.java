@@ -42,7 +42,7 @@ public class ShowScoreFragment extends Fragment {
     private FragmentShowScoreBinding binding;
     private SharedPreferences sharedPreferences;
     FirebaseDatabase database = FirebaseDatabase.getInstance();
-    DatabaseReference myRef = database.getReference("nama_child_reference");
+    DatabaseReference myRef = database.getReference("data_percepatan");
     public static ShowScoreFragment newInstance() {
         return new ShowScoreFragment();
     }
@@ -50,8 +50,6 @@ public class ShowScoreFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        GalleryViewModel galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
         binding = FragmentShowScoreBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
@@ -69,10 +67,14 @@ public class ShowScoreFragment extends Fragment {
         sharedPreferences = getActivity().getSharedPreferences("MyAppPreferences", Context.MODE_PRIVATE);
         int pengemudiId = sharedPreferences.getInt("pengemudi_id",0);
 
-        TextView scoreTot = binding.showScore;
+        TextView tAG = binding.AG;
+        TextView tAL = binding.AL;
+        TextView tL = binding.L;
         TextView recomText = binding.textRecomendasi;
-        scoreTot.setText("Score AG : "+AGd+" \nScore AL : "+ALd+" \nScore L : "+Ld);
 
+        tAG.setText(AGs);
+        tAL.setText(ALs);
+        tL.setText(Ls);
         //forward chaining
         AG = AGd >= 0.55;
         AL = ALd >= 0.55;

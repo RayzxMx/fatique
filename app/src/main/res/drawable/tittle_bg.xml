@@ -1,0 +1,22 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:visible="true">
+
+    <!-- Tambahkan atribut untuk warna dan ketebalan garis tepi -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/black"/> <!-- Ganti dengan warna yang diinginkan -->
+
+    <!-- Atur ukuran dan warna isi dari bentuk -->
+    <size
+        android:width="126dp"
+        android:height="50dp" />
+    <solid android:color="@color/warna_base_terang" /> <!-- Ganti dengan warna isi yang diinginkan -->
+
+    <!-- Atur viewport (jika diperlukan) -->
+    <padding
+        android:bottom="0dp"
+        android:left="0dp"
+        android:right="0dp"
+        android:top="0dp" />
+</shape>
